@@ -1,5 +1,3 @@
-import React from "react";
-
 const Light = ({ fillColor }: { fillColor: string }) => {
   return (
     <svg
@@ -7,9 +5,11 @@ const Light = ({ fillColor }: { fillColor: string }) => {
       height="20"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 384 512"
+      fill="white"
+      stroke="white"
     >
       <path
-        stroke="currentColor"
+        stroke="white"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="32"
@@ -20,8 +20,8 @@ const Light = ({ fillColor }: { fillColor: string }) => {
         cx="256"
         cy="256"
         r="80"
-        fill="none"
-        stroke="currentColor"
+        fill="white"
+        stroke="white"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="32"

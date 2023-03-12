@@ -1,4 +1,3 @@
-import React from "react";
 const Dark = ({ fillColor }: { fillColor: string }) => {
   return (
     <svg

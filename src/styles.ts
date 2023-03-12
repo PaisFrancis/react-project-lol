@@ -11,3 +11,10 @@ export const Container = styled.div`
   min-height: 100vh;
   background-color: ${(props) => props.theme.palette.background.primary};
 `;
+
+export const OutletContainer = styled.div`
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-flow: row nowrap;
+`;

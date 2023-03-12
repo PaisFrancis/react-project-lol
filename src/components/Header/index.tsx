@@ -21,7 +21,7 @@ const Header = () => {
     },
     {
       name: "Other Games",
-      path: "/other",
+      path: "/othergames",
     },
   ];
 
