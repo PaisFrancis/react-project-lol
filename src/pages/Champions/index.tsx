@@ -103,7 +103,7 @@ const ChampionsPage = () => {
           {filteredChampions.map((champion) => (
             <ChampionCard key={champion.id}>
               <ChampionImage
-                src={`http://ddragon.leagueoflegends.com/cdn/11.5.1/img/champion/${champion.image.full}`}
+                src={`https://ddragon.leagueoflegends.com/cdn/11.5.1/img/champion/${champion.image.full}`}
                 alt={champion.name}
               />
               <ChampionName>{champion.name}</ChampionName>
