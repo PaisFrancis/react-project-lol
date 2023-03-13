@@ -23,7 +23,7 @@ const ChampionsPage = () => {
   useEffect(() => {
     setLoading(true);
     fetch(
-      "http://ddragon.leagueoflegends.com/cdn/11.5.1/data/en_US/champion.json"
+      "https://ddragon.leagueoflegends.com/cdn/11.5.1/data/en_US/champion.json"
     )
       .then((response) => response.json())
       .then((data) => {
