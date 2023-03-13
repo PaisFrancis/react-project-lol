@@ -31,6 +31,6 @@ export const router = createBrowserRouter(
     },
   ],
   {
-    basename: "react-project-lol",
+    basename: "/react-project-lol",
   }
 );
