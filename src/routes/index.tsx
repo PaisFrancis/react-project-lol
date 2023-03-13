@@ -5,27 +5,32 @@ import ChampionsPage from "../pages/Champions";
 import Intro from "../pages/Intro";
 import OtherGames from "../pages/Other(games)/OtherGames";
 
-export const router = createBrowserRouter([
+export const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      children: [
+        {
+          index: true,
+          element: <Intro />,
+        },
+        {
+          path: "/about",
+          element: <About />,
+        },
+        {
+          path: "/champions",
+          element: <ChampionsPage />,
+        },
+        {
+          path: "/othergames",
+          element: <OtherGames />,
+        },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <App />,
-    children: [
-      {
-        index: true,
-        element: <Intro />,
-      },
-      {
-        path: "/about",
-        element: <About />,
-      },
-      {
-        path: "/champions",
-        element: <ChampionsPage />,
-      },
-      {
-        path: "/othergames",
-        element: <OtherGames />,
-      },
-    ],
-  },
-]);
+    basename: "react-project-lol",
+  }
+);

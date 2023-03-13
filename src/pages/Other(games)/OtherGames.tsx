@@ -27,6 +27,5 @@ const OtherGames = () => {
     </Container>
   );
 };
-//todo, fill in the blanks, adjust the cards s that they are in place, go over all the 20 points given by professor (understand if typescript is correctly applied) if time is available try to complete modal
 
 export default OtherGames;
